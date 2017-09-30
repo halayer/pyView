@@ -17,7 +17,7 @@ import math
 
 root = tk.Tk()
 
-with open("./objects/cube.obj") as file:
+with open("./cube.obj") as file:
     data = file.read()
     data = json.loads(data)
 
